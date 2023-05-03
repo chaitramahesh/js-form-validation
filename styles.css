@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
+
+
+body{
+    margin: 40px 60px;
+}
+
+form{
+    height: 75vh;
+    margin-top: 30px;
+}
+
+.formdecor{
+    height: 40px;
+    margin: 15px 0;
+    color: rgb(27, 27, 175);
+}
+
+.formdecor input{
+    height: 25px;
+    width: 40vw;
+    font-size: .8rem;
+    letter-spacing: inherit;
+    font-family:'Ubuntu', sans-serif; 
+    border-radius: 5px;
+    border: solid black 1px;
+    margin: 5px ;
+}
+
+
+.button{
+    margin: 25px 5px;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(221, 219, 219);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    border-color: darkgreen;
+    box-shadow: 1px 1px 1px rgb(81, 122, 18);
+}
+
+.button:hover{
+    background-color: rgb(88, 189, 184);
+    color: white;
+}
+
+.formdecor input:focus{
+   outline-color: rgb(85, 207, 191);
+}
+
+h1{
+    color: brown;
+}
+
+

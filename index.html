@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>JS Form Validation</title>
+  </head>
+  <body>
+    <h1>Welcome to the best form on Internet!</h1>
+    <form method="post" action="/myaction.php" name="myForm" onsubmit="return validateForm()"> <!-- it submits form if return value is true-->
+
+        <div class="formdecor" id="name">
+           <b> Name:</b><input type="text" name="fname" required/>
+            <b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdecor" id="email">
+          <b> Email:</b><input type="email" name="femail" required/>
+            <b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdecor" id="Phone">
+          <b> Phone:</b><input type="phone" name="fphone" required/>
+            <b><span class="formerror"></span>
+        </div></b>
+
+        <div class="formdecor" id="password">
+          <b> Password:</b><input type="password" name="fpassword" required/> 
+            <b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdecor" id="cpassword">
+          <b>Confirm Password:</b><input type="password" name="fconfirmpassword" required/> 
+            <b><span class="formerror"></span></b>
+        </div>
+
+        <input type="button" value="submit" class="button">
+
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
