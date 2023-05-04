@@ -28,7 +28,11 @@
         </div></b>
 
         <div class="formdecor" id="password">
-          <b> Password:</b><input type="password" name="fpassword" required/> 
+          <b> Password:</b><input type="password" name="fpassword" 
+          title="At least one uppercase letter, one lower case letter, one number, 
+          one special character and minimum length is 8 and maximum length is 16"
+           pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,16}$" 
+          title="" required/> 
             <b><span class="formerror"></span></b>
         </div>
 
