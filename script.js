@@ -48,4 +48,8 @@ let password = document.forms['myForm']["fpassword"].value;
    }
 }
 
-
+let button = document.getElementsByClassName("button")[0]
+console.log(button)
+button.addEventListener('click', (e)=>{
+    console.log(e)
+})
