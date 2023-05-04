@@ -46,10 +46,11 @@ let password = document.forms['myForm']["fpassword"].value;
    errorMessage("cpassword", "*Not matching with password");
    returnValue= false;
    }
+   return returnValue;
 }
 
-let button = document.getElementsByClassName("button")[0]
-console.log(button)
-button.addEventListener('click', (e)=>{
-    e.preventDefault
-})
+// let button = document.getElementsByClassName("button")[0]
+// console.log(button)
+// button.addEventListener('click', (e)=>{
+//     e.preventDefault
+// })
